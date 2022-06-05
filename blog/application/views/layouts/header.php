@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Praktikum 9</title>
+        <title>Praktikum 10</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/assets/favicon.ico')?>" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -17,9 +17,9 @@
             <div class="border-end bg-white" id="sidebar-wrapper">
                 <div class="sidebar-heading border-bottom bg-light">STT-NF</div>
                 <div class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="http://localhost/praktikum9/blog/index.php/mahasiswa">Mahasiswa</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="http://localhost/praktikum9/blog/index.php/dosen">Dosen</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="http://localhost/praktikum9/blog/index.php/matakuliah">Mata Kuliah</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="http://localhost/praktikum10/blog/index.php/mahasiswa">Mahasiswa</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="http://localhost/praktikum10/blog/index.php/dosen">Dosen</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="http://localhost/praktikum10/blog/index.php/matakuliah">Mata Kuliah</a>
                 </div>
             </div>
             <!-- Page content wrapper-->
@@ -32,15 +32,11 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                                 <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#!">Action</a>
-                                        <a class="dropdown-item" href="#!">Another action</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#!">Something else here</a>
-                                    </div>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#!">Link</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="<?php echo base_url("index.php/login/logout") ?>">Logout</a>
                                 </li>
                             </ul>
                         </div>

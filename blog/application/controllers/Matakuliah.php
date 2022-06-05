@@ -50,5 +50,12 @@ class Matakuliah extends CI_Controller{
         $this->matakuliah->delete($data_matakuliah);
         redirect('matakuliah', 'refresh');
     }
+    public function __construct()
+    {
+        parent:: __construct();
+        if(!$this->session->userdata('username')){
+            redirect('/login');
+        }
+    }
 }
 ?>
